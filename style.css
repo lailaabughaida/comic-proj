@@ -1,0 +1,164 @@
+body {
+  background:white;
+  color:black;
+  font-size:25px;
+}
+
+.page {
+  display:none;
+  height:inherit;
+  vertical-align:middle;
+}
+
+#title {
+  flex-direction: column;
+  text-align: center;
+  color:black;
+  font-family:"Futura";
+  font-size:40px;
+  margin-top:150px;
+  margin-left:35px;
+
+}
+
+#intro {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    color:black;
+    font-family:"Futura";
+    font-size:25px;
+    margin-top:120px;
+    margin-left:35px;
+}
+
+#captions {
+  display: block;
+  flex-direction: row;
+  text-align: center;
+  color:black;
+  font-family:"Futura";
+  font-size:25px;
+  margin-top:120px;
+  margin-left:35px;
+  width: 100px;
+}
+
+
+
+.typewriter h3 {
+  color: #000;
+  font-family: Futura;
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 4.5s steps(30, end),
+    blink-caret .5s step-end 2.5;
+    border-right: .15em solid transparent;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
+
+button {
+  font-size:1em;
+  background:white;
+  color:black;
+  margin-top:15%;
+  margin-left:50%;
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: "Futura";
+    color: black;
+    font-size: 27px;
+    padding: 20px;
+    width:200px;
+    align-content:center;
+    text-align: center;
+    margin-left:625px;
+}
+button:hover {
+      background-color:black;
+      color: white;
+ }
+
+
+#page0 {
+  display:block;
+}
+
+#page1 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+
+#page2 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+
+#page3 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+
+#page4 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+#page5 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+#page6 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+
+#page7 {
+  flex:none;
+  position:absolute;
+  width:100px;
+  top:40%;
+  left:35%;
+}
+
+#page8 {
+  flex:none;
+  position:absolute;
+  width:180px;
+  top:40%;
+  left:10%;
+}
